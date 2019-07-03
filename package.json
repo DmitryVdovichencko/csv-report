@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "eslint": "5.16.0",
+    "eslint-loader": "^2.1.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "scripts": {
+    "build": "webpack -p --config ./webpack/webpack.config.js --display-error-details",
+    "watch": "webpack -d --watch --config ./webpack/webpack.config.js --display-error-details"
+  },
+  "name": "csv-report",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}

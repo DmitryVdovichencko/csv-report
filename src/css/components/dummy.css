@@ -1,0 +1,4 @@
+.dummy {
+  color: var(--color-black);
+  display:flex;
+}

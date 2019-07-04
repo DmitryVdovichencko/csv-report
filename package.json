@@ -3,8 +3,16 @@
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "cssnano": "^4.1.10",
     "eslint": "5.16.0",
     "eslint-loader": "^2.1.2",
+    "file-loader": "^4.0.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "postcss": "^7.0.17",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5"
   },
@@ -15,5 +23,8 @@
   "name": "csv-report",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "browserslist": [
+    "defaults"
+  ]
 }

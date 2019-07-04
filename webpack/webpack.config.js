@@ -12,10 +12,11 @@ module.exports = {
     ]
   },
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "../dist"),
     filename: "js/[name].bundle.js"
   },
   plugins: [
     plugins.MiniCssExtractPlugin,
+    plugins.HtmlWebpackPlugin,
   ],
 };

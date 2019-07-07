@@ -1,5 +1,5 @@
 {
-  "extends": "eslint:recommended",
+  // "extends": "eslint:recommended",
   "env": {
     "browser": true,
     "node": true,
@@ -12,6 +12,7 @@
   "rules": {
     "no-console": "off",
     "strict": ["error", "global"],
-    "curly": "warn"
+    "curly": "warn",
+    "no-mixed-spaces-and-tabs": ["warn", "smart-tabs"]
   }
 }
